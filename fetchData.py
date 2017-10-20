@@ -75,17 +75,3 @@ fetchSportsList(url)
 print done, "/", total
 
 fo.close()
-
-
-
-# if not os.path.exists("./" + fileName):
-#     os.mkdir("./" + fileName)
-# fo = open("./" + fileName + "/" + city + ".js", "wb+")
-# # fo.write(response)
-# fo.write(json.dumps(areaData, ensure_ascii=False, indent=4).encode("utf-8"))
-# fo.close()
-
-# fc = open("./collect-" + fileName + ".js", "ab+")
-# fc.write(json.dumps(areaData, ensure_ascii=False, indent=4).encode("utf-8"))
-# fc.write(",\n")
-# fc.close()
